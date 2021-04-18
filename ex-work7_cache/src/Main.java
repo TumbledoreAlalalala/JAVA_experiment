@@ -78,7 +78,6 @@ class Element{
     public Element getNext(){return next;}
 }
 class Cache{
-    private Scanner in=new Scanner(System.in);
     private int size=0;
     private int maxSize=0;
     private Element head=null;
